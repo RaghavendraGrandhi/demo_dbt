@@ -1,8 +1,8 @@
 version: 2
 
 sources:
-- name: xamplify_3
+- name: xamplify_2
   database: xamplify
   schema: public
   tables:
-    - name: 'xt_spam'
+    - name: 'xt_user_role'

@@ -1,5 +1,5 @@
 with source_role as (
-    select * from {{source('xamplify_3','xt_spam') }}
+    select * from {{source('xamplify_2','xt_user_role') }}
 ),
 final as (
     select * from source_role
