@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+- name: xamplify_3
+  database: xamplify
+  schema: public
+  tables:
+    - name: 'xt_spam'
